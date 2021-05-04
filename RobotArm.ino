@@ -19,7 +19,7 @@ void loop() {
   int vrx2 = analogRead(A3); // vrx2;
 
   int baseRot = map(vrx1, 0, 1023, 0, 180);
-  int BottomJoint = map(vry1, 0, 1023, 90, 180); // need to be revise
+  int BottomJoint = map(vry1, 0, 1023, 90, 180); 
   int TopJoint = map(vry2, 0, 1023, 90, 180);
   int claw = map(vrx2, 0, 1023, 90, 180); ;
 
